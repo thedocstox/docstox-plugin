@@ -1,0 +1,20 @@
+{
+  "name": "docstox",
+  "interface": {
+    "displayName": "DocStoX"
+  },
+  "plugins": [
+    {
+      "name": "docstox",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}
