@@ -1,0 +1,17 @@
+{
+  "name": "docstox",
+  "description": "DocStoX: research Indian stocks with real NSE and BSE data.",
+  "owner": {
+    "name": "DocStoX",
+    "email": "support@docstox.com"
+  },
+  "plugins": [
+    {
+      "name": "docstox",
+      "displayName": "DocStoX",
+      "source": "./",
+      "description": "Research Indian stocks with real NSE and BSE data: deep dives, comparisons, screens, portfolio reviews and a daily market brief. Read-only.",
+      "homepage": "https://docstox.com/mcp"
+    }
+  ]
+}
