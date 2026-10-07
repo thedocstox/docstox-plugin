@@ -1,4 +1,4 @@
-![DocStoX logo](assets/logo.png)
+![DocStoX: Indian stock research inside your AI](assets/banner.png)
 
 <h1 align="center">DocStoX: Indian Stock Market MCP Server for Claude, ChatGPT and Cursor</h1>
 
