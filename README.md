@@ -26,7 +26,17 @@ In apps that support interactive views, stock quotes, screens and your portfolio
 
 ## Install
 
-**Claude (claude.ai, Claude Desktop, Cowork):** add DocStoX from the Claude directory, or upload this plugin under **Customize > Plugins > Add**. Then open the plugin's **Connectors** tab and connect DocStoX.
+The DocStoX server is `https://mcp.docstox.com/mcp` (streamable HTTP). Any app or tool that supports remote MCP servers can use it. When you connect, you are sent to docstox.com to sign in with Google or with your DocStoX email and password, then asked to allow read-only access. A free account is created if you do not have one. Apps that cannot open a browser sign-in can use a personal API key from https://docstox.com/mcp/keys, sent as `Authorization: Bearer dox-...`.
+
+### AI assistants
+
+- **Claude (claude.ai, Claude Desktop, Cowork):** add DocStoX from the Claude directory, or upload this plugin under **Customize > Plugins > Add**, then connect DocStoX on the plugin's **Connectors** tab.
+- **ChatGPT:** add DocStoX from the ChatGPT apps directory, or follow the steps at https://docstox.com/mcp.
+- **Perplexity** (Pro, Max, Enterprise): **Settings > Connectors > Custom connector > Remote**, URL `https://mcp.docstox.com/mcp`, sign in with OAuth.
+- **Mistral Le Chat:** **Connectors > Add connector > Custom MCP**, URL `https://mcp.docstox.com/mcp`, authentication with an API key (`Authorization: Bearer dox-...`).
+- **Manus:** **Settings > Connectors > Custom MCP**, URL `https://mcp.docstox.com/mcp`, header `Authorization: Bearer dox-...`.
+
+### Coding tools and agents
 
 **Claude Code:**
 
@@ -35,9 +45,35 @@ In apps that support interactive views, stock quotes, screens and your portfolio
 /plugin install docstox@docstox
 ```
 
-**ChatGPT and Codex:** add DocStoX from the ChatGPT apps directory, or follow the steps at https://docstox.com/mcp.
+**Codex:** **Customize > Plugins > Add > Add plugin marketplace**, source `thedocstox/docstox-plugin`, ref `main`.
 
-When you connect, you are sent to docstox.com to sign in with Google or with your DocStoX email and password, then asked to allow read-only access. A free account is created if you do not have one.
+**VS Code / GitHub Copilot:** [Install in VS Code](https://vscode.dev/redirect/mcp/install?name=docstox&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//mcp.docstox.com/mcp%22%7D) · [Install in VS Code Insiders](https://insiders.vscode.dev/redirect/mcp/install?name=docstox&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//mcp.docstox.com/mcp%22%7D&quality=insiders)
+
+**Kiro:** [Add to Kiro](https://kiro.dev/launch/mcp/add?name=docstox&config=%7B%22url%22%3A%22https%3A//mcp.docstox.com/mcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D)
+
+**Gemini CLI:**
+
+```bash
+gemini extensions install https://github.com/thedocstox/docstox-plugin
+```
+
+**Cursor:** open this link in your browser, or add the JSON below to `~/.cursor/mcp.json`:
+
+```text
+cursor://anysphere.cursor-deeplink/mcp/install?name=docstox&config=eyJ1cmwiOiJodHRwczovL21jcC5kb2NzdG94LmNvbS9tY3AifQ%3D%3D
+```
+
+**Cline, Windsurf, Goose, LM Studio, Zed, OpenCode and other clients:** add this to the client's MCP settings (field names vary slightly: `url`, `serverUrl` or `httpUrl`):
+
+```json
+{
+  "mcpServers": {
+    "docstox": { "url": "https://mcp.docstox.com/mcp" }
+  }
+}
+```
+
+Step-by-step guides for every client: https://docstox.com/docs/connect-your-ai/connect-coding-tools
 
 ## Plans and limits
 

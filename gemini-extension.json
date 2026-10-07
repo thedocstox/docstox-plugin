@@ -1,0 +1,11 @@
+{
+  "name": "docstox",
+  "version": "1.0.0",
+  "description": "Research Indian stocks with real NSE and BSE data through the DocStoX MCP server. Read-only.",
+  "mcpServers": {
+    "docstox": {
+      "httpUrl": "https://mcp.docstox.com/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
