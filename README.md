@@ -31,7 +31,7 @@ In apps that support interactive views, stock quotes, screens and your portfolio
 **Claude Code:**
 
 ```bash
-/plugin marketplace add docstox/docstox-plugin
+/plugin marketplace add thedocstox/docstox-plugin
 /plugin install docstox@docstox
 ```
 

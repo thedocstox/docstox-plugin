@@ -9,7 +9,7 @@
     "url": "https://docstox.com"
   },
   "homepage": "https://docstox.com/mcp",
-  "repository": "https://github.com/docstox/docstox-plugin",
+  "repository": "https://github.com/thedocstox/docstox-plugin",
   "license": "MIT",
   "keywords": ["india", "stocks", "nse", "bse", "equity-research", "finance", "investing", "screener", "portfolio"]
 }
