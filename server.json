@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.docstox/mcp",
+  "title": "DocStoX",
+  "description": "Indian stock research on real NSE and BSE data: fundamentals, screens, FII flows and F&O. Read-only.",
+  "version": "1.1.1",
+  "websiteUrl": "https://docstox.com/mcp",
+  "repository": {
+    "url": "https://github.com/thedocstox/docstox-plugin",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/thedocstox/docstox-plugin/main/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.docstox.com/mcp"
+    }
+  ]
+}
