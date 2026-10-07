@@ -22,8 +22,8 @@
   "skills": "./skills",
   "interface": {
     "displayName": "DocStoX",
-    "shortDescription": "Indian stock research on real NSE & BSE data",
-    "longDescription": "DocStoX connects your AI assistant to a curated database of every actively traded NSE and BSE stock, so answers about Indian equities are grounded in real numbers instead of memory.\n\nAsk about a company and ChatGPT can pull its price history, quarterly and annual financials, valuation, shareholding (promoters, FIIs, mutual funds), insider and bulk/block deals, exchange surveillance flags, corporate actions, filings and news. For research, DocStoX returns a full stock dossier, a deterministic 0-10 score with its factors, fair-value ranges and peer comparisons.\n\nScreen the whole market on 200+ metrics with AND/OR filters, and follow the market itself: FII/DII flows, breadth, index valuations, sector strength, IPOs, index options (chain, max pain, PCR, OI build-up), India VIX, GIFT Nifty, MCX gold, silver and crude.\n\nSigned-in users can also ask about their own DocStoX portfolio and watchlist.\n\nEvery tool is read-only: DocStoX never places trades, moves money or changes your account. Data is for information, not investment advice.\n\nSign in with your docstox.com account (Google or email). Free accounts get 50 tool calls a day; DocStoX Pro raises that to 5,000 and unlocks Pro research such as the AI score.",
+    "shortDescription": "Research Indian stocks",
+    "longDescription": "DocStoX connects your AI assistant to a curated database of every actively traded NSE and BSE stock, so answers about Indian equities are grounded in real numbers instead of memory.\n\nAsk about a company and ChatGPT can pull its price history, quarterly and annual financials, valuation, shareholding (promoters, FIIs, mutual funds), insider and bulk/block deals, exchange surveillance flags, corporate actions, filings and news. For research, DocStoX returns a full stock dossier, a deterministic 0-10 score with its factors, fair-value ranges and peer comparisons.\n\nScreen the whole market on 200+ metrics with AND/OR filters, and follow the market itself: FII/DII flows, breadth, index valuations, sector strength, IPOs, index options (chain, max pain, PCR, OI build-up), India VIX, GIFT Nifty, MCX gold, silver and crude.\n\nSigned-in users can also ask about their own DocStoX portfolio and watchlist.\n\nEvery tool is read-only: DocStoX never places trades, moves money or changes your account. Data is for information, not investment advice.\n\nSign in with your docstox.com account (Google or email) when you connect.",
     "developerName": "DocStoX",
     "category": "Finance",
     "capabilities": [],
@@ -36,7 +36,7 @@
       "Compare TCS, Infosys and HCL Tech on growth, margins and valuation",
       "Give me today's Indian market brief: flows, movers and what's in the news"
     ],
-    "brandColor": "#F5B61B",
+    "brandColor": "#D4980C",
     "composerIcon": "./assets/app-icon.png",
     "logo": "./assets/logo.png",
     "logoDark": "./assets/logo-dark.png",
